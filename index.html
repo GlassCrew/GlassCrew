@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>GlassCrew Minecraft Builds</title>
+    <link rel="icon" type="image/png" href="media/favicon.png">
+    <link rel="stylesheet" href="media/style.css">
+    <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <nav class="desktop_navbar">
+      
+      
+      </div>
+    </nav>
+    <div class="mobile_navbar">
+
+
+        <div class="icon" onclick="mobile_navbar_link_hider()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <script>
+            function mobile_navbar_link_hider() {
+            var x = document.getElementById("mobile_navbar_links");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+            } 
+        </script>
+    </div>
+    <div class="mainflex">
+      <div class="main1">
+        <a class="main1_logo_a" href="#">
+          <img class="main1_logo" src="media/logo.png" alt="logo">
+        </a>
+        <div class="main1_description">
+          <a>Custom builds</a>
+          <a class="main1_actcent">done right.</a><a></a>
+        </div>
+
+        </div>
+        <a href="#more" class="scroll">
+          <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
+        </a>
+        <script>
+          const scrollLinks = document.querySelectorAll('.scroll');
+          scrollLinks.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+              event.preventDefault();
+              const target = document.querySelector(link.getAttribute('href'));
+              const offsetTop = target.offsetTop;
+              window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+              });
+            });
+          });
+        </script>
+      </div>
+      <div id="more"></div>
+      <div class="main2">
+        <a class="headline">Featured Builds</a>
+        <div class="main2_features_div">
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/build4.png">
+            <a class="main2_feature_headline">Giant Spruce Trees</a>
+            <a class="main2_feature_text">Asset pack/schematic</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/build1.png">
+            <a class="main2_feature_headline">Asian-Style Spawn</a>
+            <a class="main2_feature_text">Commission</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/build5.png">
+            <a class="main2_feature_headline">Giant Palm Trees</a>
+            <a class="main2_feature_text">Asset pack/schematic</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/build6.png">
+            <a class="main2_feature_headline">Ice Hockey Rink</a>
+            <a class="main2_feature_text">Commission</a>
+          </div>
+          <div class="main2_feature">
+            <img class="main2_feature_img" alt="Feature Image" src="media/build2.png">
+            <a class="main2_feature_headline">Dutch City</a>
+            <a class="main2_feature_text">Commission</a>
+          </div>
+        </div>
+      </div>
+      <div id="discord"></div>
+      <div class="main4">
+        <a class="headline">Products and Services</a>
+        <div class="main4_dc_div">
+          <img src="media/tg.png" width="350" height="383">
+          <div class="main4_dc_description_div">
+            <a class="main4_dc_description_title">Let's talk!</a>
+            <a class="main4_dc_description"> ・Wide selection of premade schematics - ready for your world!<br> ・Fully customized commissions including frequent check-ins with the build team. <br><br> ・ Schematics from €8.95 <br>・ Commissions from €26.95<br>・ Contact us for a free estimate</a>
+            <a target="_blank" href="https://t.me/+jZaiOiMeSag4MWlx" class="main4_dc_button_a">
+              <div class="main4_dc_button">Contact us</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="about"></div>
+      <div class="main5">
+        <a class="headline">Our Team</a>
+        <div class="main5_admin_div">
+          
+      
+        </div>
+        <div class="main5_supporter_div">
+          <div class="main5_supporters_div">
+            <img class="main5_supporters_img" alt="supporters member img" src="media/Glass961.png">
+            <div class="main5_supporters_description_div">
+              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">Owner & Builder</a>
+              <a class="main5_supporters_description_title">Glass961</a>
+              <a class="main5_supporters_description"><b>Favorite styles:</b> Classical, European, Eastern, rustic<br><br><b>Specialties:</b> Planning, exterior detail, special structures</a>
+            </div>
+          </div>
+          <div class="main5_supporters_div">
+            <img class="main5_supporters_img" alt="supporters member img" src="media/sanot2.png">
+            <div class="main5_supporters_description_div">
+              <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">Builder</a>
+              <a class="main5_supporters_description_title">sanot2</a>
+              <a class="main5_supporters_description"><b>Favorite styles:</b> Modern/minimalist, suburban, city <br><br><b>Specialties:</b> Plants, landscaping, interior detail, pixel art</a>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="copyright_div">
+      <a class="copyright">Made by GlassCrew - 2023</a>
+    </footer>
+  </body>
+</html>
